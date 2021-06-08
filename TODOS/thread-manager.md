@@ -1,0 +1,2 @@
+- The `ThreadManager` needs more robust methods for handling threads
+	- `kill` method which puts an end to a thread

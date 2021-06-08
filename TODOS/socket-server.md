@@ -1,0 +1,1 @@
+- the `SocketServer` needs some method which would be able to stop the thread waiting for connections

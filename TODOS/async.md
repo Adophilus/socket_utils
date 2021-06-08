@@ -1,0 +1,2 @@
+- The socket connections need to perform operations asynchronously.
+	- "send" and "receive" operations are not fully asynchronous

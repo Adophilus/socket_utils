@@ -1,0 +1,3 @@
+- Support for more event callbacks is needed
+	- `SocketClient.on("send")` should called immediately after `self.__socket.send(...)`
+	- `SocketClient.on("sent")` should called after `self.__socket.send(...)` sends all the data
