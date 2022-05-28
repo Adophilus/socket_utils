@@ -19,9 +19,8 @@ class SocketConnection ():
 		elif (item == "address"):
 			return self.__address
 
-	def close (self):
+	def close(self):
 		return self.__socket.close()
-		self.__eventCallback["close"]()
 
 	def _receive (self, data_size, encoding = "utf-8"):
 		data = bytes("", encoding)

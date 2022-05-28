@@ -1,8 +1,8 @@
 import threading
 
 class ThreadManager ():
-	def __init__ (self, ):
-		self.__thread = dict()
+	def __init__(self, ):
+		self.__thread = {}
 
 	def __getitem__ (self, thread):
 		return self.__thread[thread]
@@ -65,5 +65,5 @@ class ThreadCollection ():
 		self.__threads.clear()
 		return threads
 
-	def threads (self):
-		return [ thread for thread in self.__threads ]
+	def threads(self):
+		return list(self.__threads)
